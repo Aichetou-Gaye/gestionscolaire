@@ -22,5 +22,31 @@ Ce système est destiné aux écoles et universités qui doivent gérer la base 
 
 ## Installation
 
- 
+1 - Téléchager le code source du système depuis https://github.com/Aichetou-Gaye/gestionscolaire.git 
+2 - Suivre le manuel dans README.
+
+## Utilisation
+
+- Importer le fichier sql et supprimer les données des lignes avec la commande "truncate table nom_table;"
+- Ensuite inserer vos donnees dans la base de donnée;
+
+## Règles de gestion
+
+- Un etudiant doit etre un H (homme) ou une F (femme);
+- les numeros de telephones et adresses emails sont uniques;
+- il existe trois niveau : primaire, secondaire ou superieur;
+- trois statuts d'inscriptions sont autorisés : actif, en attente, annulé
+- deux types d'evaluation : devoir ou examen;
+- une classe peut avoir un ou plusieurs etudiants;
+- un etudiant doit avoir un ou plusieurs notes;
+- un etudiant ne peut s'inscrire qu'une fois;
+
+## Depannage 
+
+En cas d'incapicité à exploiter la base de donnée. Veuillez contacter l'auteur pour obtenir de l'aide.
+
+## Licence 
+
+Ce système est à utiliser, toute commercialisation est formellement interdite.
+
 
